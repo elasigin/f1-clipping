@@ -1,0 +1,14 @@
+Rule A
+  PASS  1 Spa sanity numbers: 2000 m: 318 vs 336 km/h; 800 m: 317 vs 297
+  PASS  2a 2025 mean share < 0.5%: 0.00% (2026 7.41%)
+  PASS  2b no 2025 circuit > 2%: worst melbourne 0.00%
+  PASS  3 negative controls ~0 in 2026: monaco 0.00%, hungaroring 0.41%, singapore 0.00%
+  FAIL  4 known straights found in 2026: Kemmel 130 m (need 250), Blanchimont 130 m (need 100), Baku straight 580 m (need 200)
+  zones 218, with a car within 100 m: 15
+Rule B
+  PASS  1 Spa sanity numbers: 2000 m: 318 vs 336 km/h; 800 m: 317 vs 297
+  PASS  2a 2025 mean share < 0.5%: 0.01% (2026 7.75%)
+  PASS  2b no 2025 circuit > 2%: worst spa 0.23%
+  PASS  3 negative controls ~0 in 2026: monaco 0.00%, hungaroring 0.39%, singapore 0.00%
+  PASS  4 known straights found in 2026: Kemmel 430 m (need 250), Blanchimont 130 m (need 100), Baku straight 570 m (need 200)
+  zones 224, with a car within 100 m: 14

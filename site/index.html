@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An interactive look at super clipping: where Formula 1's 2026 cars slow down on the straights while the driver is still flat out.">
+<title>Flat out and slowing down: energy clipping in F1's 2026 cars</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<script src="vendor/d3.v7.9.0.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#explore">Skip to the explorer</a>
+<main>
+  <!-- Numbers marked data-fact are checked against site/data by tests/test_story.py. -->
+  <header class="prose">
+    <p class="kicker">Formula 1, 2025 and 2026 qualifying telemetry</p>
+    <h1>Flat out and slowing down</h1>
+    <p class="dek">In 2026, Formula 1 cars sometimes lose speed on a straight while the driver still has the
+      throttle wide open. This article finds those moments in lap data and shows where they happen.</p>
+    <nav aria-label="Sections">
+      <a href="#what">What is clipping?</a> <a href="#story">One lap of Spa</a> <a href="#season-text">The season</a>
+      <a href="#explore">Explore</a> <a href="#method">Method and limits</a>
+    </nav>
+  </header>
+
+  <section id="what" aria-labelledby="what-title">
+    <div class="prose">
+      <h2 id="what-title">What is clipping?</h2>
+      <p>Below is the same driver, Kimi Antonelli, on the same straight at Spa in two seasons. Antonelli is at full
+        throttle the whole way in both. In <b class="y25">2025</b> the car keeps gaining speed, reaching
+        <span data-fact="spa.kemmel.max25">341</span> km/h. In <b class="y26">2026</b> it gets to
+        <span data-fact="spa.kemmel.max26">328</span> km/h, then goes slower and slower until the brakes.</p>
+    </div>
+    <figure id="hero"></figure>
+    <div class="prose">
+      <p>The likely reason is the battery. A 2026 car's electric motor may deliver up to 350&nbsp;kW, up from 120&nbsp;kW
+        before (<a href="https://www.formula1.com/en/latest/article/2026-regulations-explained-all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd">F1.com</a>).
+        But the charge may only swing by 4&nbsp;MJ
+        (<a href="https://api.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf">FIA
+        Technical Regulations</a>, C5.2.7 and C5.2.9). At full power that lasts about 11 seconds. Antonelli's 2026 lap of Spa has
+        <span data-fact="spa.full26.sec">67</span> seconds at full throttle. Braking and part throttle put energy back,
+        within a limit per lap, but the car still has to ration it.</p>
+      <p>When the help runs short, the car is <strong>clipping</strong>. In <strong>super clipping</strong> the motor goes
+        further and works as a generator: it takes power from the engine to charge the battery, at full throttle. The driver's
+        foot never moves.</p>
+    </div>
+    <figure id="mechanism"></figure>
+    <div class="prose">
+      <p class="aside">Public telemetry has no battery channel, so nothing here measures clipping directly. I look for its
+        footprint: <strong>full throttle, no brake, speed falling</strong>. That fits both kinds of clipping and cannot
+        tell them apart. The 2025 cars are the control. If the method found clipping there, it would be too loose.</p>
+    </div>
+  </section>
+
+  <section id="story" aria-labelledby="story-title">
+    <div class="prose">
+      <h2 id="story-title">One lap of Spa, twice</h2>
+      <p>Antonelli drove for Mercedes in both seasons, so the driver and team stay the same. Scroll to follow the lap. You can point at
+        or drag across the chart and the map at any step. When the chart zooms in, its speed axis zooms too.</p>
+    </div>
+    <div class="scrolly">
+      <div class="steps">
+        <div class="step" data-zoom="0-6950">
+          <h3>The whole lap</h3>
+          <p>Antonelli's best laps: <b class="y25">1:42.139 in 2025</b> and <b class="y26">1:44.361 in 2026</b>. The middle chart shows the
+            gap in speed. Orange means 2026 is faster there, blue means 2025 is.</p>
+        </div>
+        <div class="step" data-zoom="420-1300" data-brush="450-1050">
+          <h3>First, 2026 is quicker</h3>
+          <p>Out of La Source the 2026 car pulls ahead, as a stronger motor would suggest. At 800&nbsp;m it is doing
+            <span data-fact="spa.v26.800">317</span> km/h against <span data-fact="spa.v25.800">297</span>.</p>
+        </div>
+        <div class="step" data-zoom="800-1500" data-brush="1050-1250">
+          <h3>Slowing that doesn't count</h3>
+          <p>Up Eau Rouge, both cars lose speed at full throttle. They are cornering hard, uphill. Fast corners slow a car whatever
+            the battery does, so I leave out any stretch cornering above 1.5&nbsp;g.</p>
+        </div>
+        <div class="step" data-zoom="1250-2290" data-brush="1630-2280">
+          <h3>Kemmel: the help runs out</h3>
+          <p>The straight from the top of the page. At 1,600&nbsp;m the 2026 car is still ahead,
+            <span data-fact="spa.v26.1600">328</span> to <span data-fact="spa.v25.1600">322</span> km/h. At 2,000&nbsp;m it trails by
+            <span data-fact="spa.gap.2000">18</span>. Two zones here (hatched) fit clipping, and the second loses
+            <span data-fact="spa.kemmel.drop2">20</span> km/h.</p>
+        </div>
+        <div class="step" data-zoom="5300-6500" data-brush="5640-6300">
+          <h3>Blanchimont: a lower bound</h3>
+          <p>From <span data-fact="spa.blanch.max26">336</span> km/h the 2026 car falls to
+            <span data-fact="spa.v26.6250">286</span>, while 2025 holds near <span data-fact="spa.v25.6250">316</span>. But most of it happens in a
+            fast corner, so only <span data-fact="spa.blanch.counted">105</span> m counts. The real total is probably higher.
+            The gap in the orange line is missing telemetry.</p>
+        </div>
+        <div class="step" data-zoom="0-6950">
+          <h3>Added up</h3>
+          <p>In 2026, <span data-fact="spa.clip26.m">700</span> m of <span data-fact="spa.full26.m">5,090</span> m at full throttle
+            (<span data-fact="spa.clip26.share">13.8%</span>) fits clipping. In 2025, none does. How sure is that? Stricter rules
+            find <span data-fact="spa.clip26.lo">0.0%</span> and looser ones <span data-fact="spa.clip26.hi">18.8%</span>, because the slowing is
+            gentle. Trust the pattern more than the number.</p>
+        </div>
+      </div>
+      <div class="stage" aria-label="Charts for the Spa story">
+        <div id="story-trace"></div>
+        <div class="stage-low"><div id="story-map"></div><div id="story-read"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="season-text" class="prose" aria-labelledby="season-title">
+    <h2 id="season-title">Across the season</h2>
+    <p>Now the same test on one qualifying lap per team, at every circuit both seasons share. Clipping shows up on
+      <span data-fact="season.n26">128 of 198</span> laps in 2026, and on <span data-fact="season.n25">1 of 180</span> in 2025.</p>
+    <p><strong>The track matters far more than the team.</strong> At Miami the median team clips on
+      <span data-fact="season.top">18.1%</span> of its full-throttle distance. At <span data-fact="season.zero">6 of 18</span> circuits the median
+      is zero. Team averages sit between <span data-fact="season.teamlo">6.6%</span> and <span data-fact="season.teamhi">8.7%</span>.</p>
+    <p><strong>Long flat-out runs go with clipping.</strong> All <span data-fact="runs.long">7 circuits</span> with a run over 1,200&nbsp;m
+      show it. But length isn't everything: Mexico City has a run of <span data-fact="runs.mexico">1,020</span> m and a median of zero. The FIA can also set
+      a lower charging limit at some circuits, which this data can't separate out.</p>
+    <p><strong>I can't say who improved.</strong> Rules changed from Miami, every circuit differs, and nearly every team's gap to the
+      circuit median is small enough to be chance. Compare teams within a column, not along a row.</p>
+  </section>
+  <section id="season" class="view" aria-label="Season chart"></section>
+
+  <section id="explore" class="view" aria-labelledby="explore-title">
+    <div class="prose">
+      <h2 id="explore-title">Explore it yourself</h2>
+      <p>Pick a circuit and laps, then drag along the track or the chart. A selection in one shows in the other.</p>
+    </div>
+    <div class="starts" role="group" aria-label="Places to start"></div>
+    <form class="controls" aria-label="Choose laps" onsubmit="return false">
+      <label>Circuit <select id="circuit"></select></label>
+      <label>Laps to compare <select id="pair"></select></label>
+    </form>
+    <div id="compare">
+      <div id="compare-head"></div>
+      <div class="pair-grid">
+        <div id="map"></div>
+        <div id="trace"></div>
+      </div>
+    </div>
+    <p id="status" role="status" aria-live="polite"></p>
+  </section>
+
+  <section id="method" class="prose" aria-labelledby="method-title">
+    <h2 id="method-title">Method and limits</h2>
+    <p><strong>What counts.</strong> A zone is marked where the throttle is at least <span data-th="throttle_min"></span>%, the brake
+      is off, speed is above <span data-th="speed_min"></span> km/h, and the car loses at least <span data-th="min_drop"></span> km/h over
+      <span data-th="min_length_m"></span> m or more. Stretches cornering above <span data-th="lat_g_max"></span> g are left out.
+      The headline number is the clipped share of full-throttle distance.</p>
+    <ul>
+      <li><strong>Inferred, not measured.</strong> There is no battery data. Wind is not corrected for, and neither are slopes: Kemmel climbs
+        about 4.5%, but the 2025 car gains speed on the same climb.</li>
+      <li><strong>A lower bound.</strong> Clipping inside fast corners is dropped, and a car that merely accelerates less is not counted.</li>
+      <li><strong>The motor also fades by rule.</strong> In qualifying, overtake mode is available for the whole lap (Sporting Regulations,
+        B7.2.3). It allows the full 350&nbsp;kW up to 337.5 km/h, fading to zero at 355, unless the FIA adjusts it for a circuit (Technical
+        Regulations, C5.2.7 and C5.2.8). <span data-fact="zones.below">188 of 223</span> zones found in 2026 start below 337.5, so this rule alone doesn't
+        explain them.</li>
+      <li><strong>The cars differ in other ways.</strong> 2026 has active aerodynamics and no DRS, so the speed gap is not all battery.
+        Lap time differences are not a cost of clipping.</li>
+      <li><strong>One lap per team.</strong> Drivers choose where to spend energy, and one lap is a small sample. Exact percentages depend
+        on the thresholds, so the season chart shows the range from stricter to looser rules.</li>
+      <li><strong>Telemetry is coarse and sometimes broken.</strong> Real samples arrive about four times a second. Frozen or missing 2026 data is left
+        blank, never shown as zero, and some laps were replaced by the team's next best.</li>
+      <li><strong>What is missing.</strong> Las Vegas 2025 and Interlagos 2026 were wet, so they have no dry pair. The 2026 rounds at Kuala Lumpur and
+        Madrid have no 2025 race to compare with. Qatar and Abu Dhabi 2026 had not been held when this was built.</li>
+    </ul>
+    <p><strong>The rules moved.</strong> On 20 April 2026 the FIA announced that peak superclip power would rise from 250 to 350&nbsp;kW
+      from Miami, with a lower qualifying charge limit meant to cut super clipping to roughly 2 to 4 seconds a lap
+      (<a href="https://www.fia.com/news/refinements-2026-fia-formula-1-regulations-agreed-all-stakeholders">FIA</a>). The August
+      Technical Regulations let the FIA lower the limit at individual events (C5.2.10). The slowing found here lasts a median
+      <span data-fact="season.postsec">2.4</span> seconds a lap from Miami on, but it is not the same quantity.</p>
+    <p><strong>Data.</strong> <a href="https://github.com/TracingInsights">TracingInsights</a> (from FastF1, Apache-2.0), fixed to one version
+      of each season. Built with <a href="https://d3js.org">D3</a>. Regulations read: FIA Section C issue 20 (5 August 2026) and
+      <a href="https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_07_-_2026-06-25.pdf">Section B
+      issue 07</a> (25 June 2026).</p>
+  </section>
+
+  <footer>
+    <p>Unofficial student project for Stanford CS448B. Not associated with Formula 1, the FIA or any team.</p>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,380 @@
+circuit,season,team,driver,lap,time,compound,segment,status,team_best,team_best_driver,corners,offset_median,offset_abs_median,valid_share
+melbourne,2025,Williams,ALB,20,75.737,SOFT,Q3,best,75.737,ALB,6,-7.5,7.5,0.9809
+melbourne,2025,Aston Martin,ALO,5,76.288,SOFT,Q1,best,76.288,ALO,5,-5.0,5.0,0.9733
+melbourne,2025,Mercedes,RUS,20,75.546,SOFT,Q3,best,75.546,RUS,6,0.0,0.0,0.9943
+melbourne,2025,Kick Sauber,BOR,7,76.516,SOFT,Q1,best,76.516,BOR,4,7.5,7.5,0.9724
+melbourne,2025,Alpine,GAS,20,75.98,SOFT,Q3,best,75.98,GAS,6,2.5,5.0,1.0
+melbourne,2025,Racing Bulls,TSU,17,75.67,SOFT,Q3,best,75.67,TSU,6,0.0,0.0,0.9819
+melbourne,2025,Ferrari,LEC,17,75.755,SOFT,Q3,best,75.755,LEC,5,0.0,0.0,0.9676
+melbourne,2025,Red Bull Racing,VER,16,75.481,SOFT,Q3,best,75.481,VER,6,2.5,5.0,0.9952
+melbourne,2025,McLaren,NOR,19,75.096,SOFT,Q3,best,75.096,NOR,6,0.0,0.0,1.0
+melbourne,2025,Haas F1 Team,OCO,5,77.147,SOFT,Q1,best,77.147,OCO,5,0.0,5.0,0.9695
+melbourne,2026,Williams,ALB,10,81.051,SOFT,Q1,replaced,80.941,ALB,6,0.0,0.0,1.0
+melbourne,2026,Aston Martin,ALO,9,81.969,SOFT,Q1,best,81.969,ALO,6,0.0,2.5,0.98
+melbourne,2026,Mercedes,RUS,21,78.518,SOFT,Q3,best,78.518,RUS,6,0.0,0.0,0.9542
+melbourne,2026,Haas F1 Team,BEA,17,80.311,SOFT,Q2,best,80.311,BEA,5,-5.0,5.0,1.0
+melbourne,2026,Audi,BOR,13,80.221,SOFT,Q2,best,80.221,BOR,6,5.0,5.0,0.999
+melbourne,2026,Cadillac,PER,6,82.605,SOFT,Q1,best,82.605,PER,6,2.5,5.0,1.0
+melbourne,2026,Alpine,GAS,17,80.826,SOFT,Q2,replaced,80.501,GAS,6,0.0,0.0,0.979
+melbourne,2026,Red Bull Racing,HAD,18,79.303,SOFT,Q3,best,79.303,HAD,6,-5.0,5.0,1.0
+melbourne,2026,Ferrari,LEC,23,79.327,SOFT,Q3,best,79.327,LEC,6,-2.5,5.0,1.0
+melbourne,2026,Racing Bulls,LIN,14,79.971,SOFT,Q2,best,79.971,LIN,6,-2.5,5.0,1.0
+melbourne,2026,McLaren,PIA,25,79.38,SOFT,Q3,best,79.38,PIA,6,-7.5,7.5,0.9781
+shanghai,2025,Williams,ALB,7,91.503,SOFT,Q1,best,91.503,ALB,5,0.0,0.0,0.9637
+shanghai,2025,Aston Martin,ALO,14,91.688,SOFT,Q2,best,91.688,ALO,6,2.5,2.5,0.9888
+shanghai,2025,Mercedes,RUS,21,90.723,SOFT,Q3,best,90.723,RUS,6,5.0,5.0,0.9619
+shanghai,2025,Haas F1 Team,OCO,14,91.625,SOFT,Q2,best,91.625,OCO,6,0.0,0.0,0.9777
+shanghai,2025,Kick Sauber,HUL,14,91.632,SOFT,Q2,best,91.632,HUL,5,0.0,0.0,0.986
+shanghai,2025,Alpine,GAS,8,91.992,SOFT,Q1,best,91.992,GAS,4,0.0,0.0,0.9581
+shanghai,2025,Racing Bulls,HAD,19,91.079,SOFT,Q3,best,91.079,HAD,5,0.0,0.0,0.9712
+shanghai,2025,Ferrari,HAM,17,90.927,SOFT,Q3,best,90.927,HAM,5,0.0,0.0,0.9656
+shanghai,2025,Red Bull Racing,VER,14,90.817,SOFT,Q3,best,90.817,VER,6,5.0,5.0,0.9898
+shanghai,2025,McLaren,PIA,19,90.641,SOFT,Q3,best,90.641,PIA,6,2.5,2.5,0.974
+shanghai,2026,Williams,ALB,6,95.145,SOFT,Q1,masked,94.317,SAI,5,-15.0,15.0,0.9033
+shanghai,2026,Aston Martin,ALO,8,95.203,SOFT,Q1,masked,95.203,ALO,6,-20.0,20.0,0.9526
+shanghai,2026,Mercedes,RUS,12,92.286,SOFT,Q3,masked,92.064,ANT,4,-17.5,17.5,0.9116
+shanghai,2026,Haas F1 Team,OCO,10,93.538,SOFT,Q2,replaced,93.197,BEA,5,-20.0,20.0,0.9284
+shanghai,2026,Audi,HUL,8,93.368,SOFT,Q2,replaced,93.354,HUL,5,-25.0,25.0,0.9405
+shanghai,2026,Cadillac,BOT,5,95.928,SOFT,Q1,masked,95.436,BOT,5,-20.0,20.0,0.8716
+shanghai,2026,Alpine,GAS,11,93.28,SOFT,Q2,masked,92.873,GAS,5,-20.0,20.0,0.9005
+shanghai,2026,Red Bull Racing,HAD,19,93.121,SOFT,Q3,replaced,93.002,VER,5,-20.0,20.0,0.9581
+shanghai,2026,Ferrari,HAM,18,92.415,SOFT,Q3,best,92.415,HAM,6,-22.5,22.5,0.9665
+shanghai,2026,Racing Bulls,LAW,5,94.209,SOFT,Q1,masked,93.765,LAW,6,-15.0,15.0,0.9516
+shanghai,2026,McLaren,PIA,16,92.55,SOFT,Q3,best,92.55,PIA,5,-25.0,25.0,0.9842
+suzuka,2025,Williams,ALB,19,87.615,SOFT,Q3,best,87.615,ALB,6,0.0,2.5,0.9542
+suzuka,2025,Aston Martin,ALO,11,87.897,SOFT,Q2,best,87.897,ALO,6,0.0,0.0,0.9585
+suzuka,2025,Mercedes,RUS,8,87.4,SOFT,Q2,replaced,87.318,RUS,6,5.0,10.0,0.943
+suzuka,2025,Haas F1 Team,BEA,14,87.711,SOFT,Q2,best,87.711,BEA,5,0.0,0.0,0.9603
+suzuka,2025,Kick Sauber,HUL,8,88.57,SOFT,Q1,best,88.57,HUL,5,-5.0,5.0,0.9542
+suzuka,2025,Alpine,GAS,11,87.822,SOFT,Q2,best,87.822,GAS,5,0.0,0.0,0.9568
+suzuka,2025,Racing Bulls,HAD,17,87.569,SOFT,Q3,best,87.569,HAD,6,2.5,2.5,0.9758
+suzuka,2025,Ferrari,LEC,17,87.299,SOFT,Q3,best,87.299,LEC,5,0.0,0.0,0.962
+suzuka,2025,McLaren,NOR,14,86.995,SOFT,Q3,best,86.995,NOR,6,2.5,5.0,0.9715
+suzuka,2025,Red Bull Racing,VER,16,86.983,SOFT,Q3,best,86.983,VER,3,5.0,5.0,0.968
+suzuka,2026,Williams,ALB,5,91.51,SOFT,Q1,replaced,90.927,SAI,6,5.0,7.5,0.9672
+suzuka,2026,Aston Martin,ALO,5,93.392,SOFT,Q1,masked,92.646,ALO,6,0.0,2.5,0.9352
+suzuka,2026,Mercedes,RUS,14,89.686,SOFT,Q2,replaced,88.778,ANT,6,0.0,0.0,0.9853
+suzuka,2026,Haas F1 Team,BEA,5,91.421,SOFT,Q1,masked,90.309,OCO,6,2.5,5.0,0.9508
+suzuka,2026,Audi,HUL,4,90.542,SOFT,Q1,replaced,89.99,BOR,6,0.0,2.5,0.9516
+suzuka,2026,Cadillac,PER,5,92.206,SOFT,Q1,masked,92.206,PER,6,5.0,7.5,0.9525
+suzuka,2026,Alpine,GAS,2,90.765,SOFT,Q1,masked,89.691,GAS,5,0.0,5.0,0.9257
+suzuka,2026,Red Bull Racing,HAD,8,90.339,SOFT,Q2,replaced,89.978,HAD,6,0.0,2.5,0.9801
+suzuka,2026,Ferrari,LEC,17,89.405,SOFT,Q3,replaced,89.303,LEC,6,0.0,2.5,0.9991
+suzuka,2026,Racing Bulls,LAW,8,90.657,SOFT,Q1,replaced,90.109,LIN,6,-2.5,5.0,0.981
+suzuka,2026,McLaren,PIA,16,89.132,SOFT,Q3,best,89.132,PIA,6,12.5,15.0,1.0
+miami,2025,Williams,SAI,19,86.569,SOFT,Q3,best,86.569,SAI,5,0.0,5.0,0.9617
+miami,2025,Aston Martin,ALO,8,87.604,SOFT,Q1,best,87.604,ALO,5,-5.0,5.0,0.9626
+miami,2025,Mercedes,ANT,19,86.271,SOFT,Q3,best,86.271,ANT,5,5.0,5.0,0.9617
+miami,2025,Haas F1 Team,OCO,20,86.824,SOFT,Q3,best,86.824,OCO,3,-5.0,5.0,0.9794
+miami,2025,Kick Sauber,BOR,11,87.151,SOFT,Q2,best,87.151,BOR,6,-2.5,5.0,0.9748
+miami,2025,Alpine,DOO,14,87.186,SOFT,Q2,best,87.186,DOO,3,0.0,5.0,0.9336
+miami,2025,Racing Bulls,HAD,12,86.987,SOFT,Q2,best,86.987,HAD,5,5.0,5.0,0.9561
+miami,2025,Ferrari,LEC,19,86.754,SOFT,Q3,best,86.754,LEC,5,-5.0,5.0,0.9757
+miami,2025,McLaren,NOR,20,86.269,SOFT,Q3,best,86.269,NOR,6,0.0,5.0,0.9579
+miami,2025,Red Bull Racing,VER,17,86.204,SOFT,Q3,best,86.204,VER,6,0.0,2.5,0.9589
+miami,2026,Williams,SAI,8,89.54,SOFT,Q1,best,89.54,SAI,6,-10.0,10.0,1.0
+miami,2026,Aston Martin,ALO,5,91.098,SOFT,Q1,best,91.098,ALO,6,-2.5,7.5,0.9757
+miami,2026,Mercedes,ANT,14,87.798,SOFT,Q3,best,87.798,ANT,6,-5.0,5.0,1.0
+miami,2026,Haas F1 Team,BEA,5,89.34,SOFT,Q1,best,89.34,BEA,5,-5.0,10.0,1.0
+miami,2026,Audi,HUL,13,89.439,SOFT,Q2,best,89.439,HUL,5,-5.0,5.0,1.0
+miami,2026,Cadillac,BOT,8,91.629,SOFT,Q1,best,91.629,BOT,5,-5.0,5.0,1.0
+miami,2026,Alpine,COL,16,88.762,SOFT,Q3,best,88.762,COL,5,0.0,5.0,0.9953
+miami,2026,Red Bull Racing,VER,14,87.964,SOFT,Q3,best,87.964,VER,6,-5.0,5.0,1.0
+miami,2026,Ferrari,LEC,17,88.143,SOFT,Q3,best,88.143,LEC,5,-5.0,5.0,1.0
+miami,2026,Racing Bulls,LAW,13,89.499,SOFT,Q2,best,89.499,LAW,6,-5.0,5.0,1.0
+miami,2026,McLaren,NOR,16,88.183,SOFT,Q3,best,88.183,NOR,5,0.0,0.0,1.0
+montreal,2025,Williams,ALB,21,71.892,MEDIUM,Q2,best,71.892,ALB,5,0.0,0.0,0.9374
+montreal,2025,Aston Martin,ALO,24,71.586,MEDIUM,Q3,best,71.586,ALO,4,-5.0,5.0,0.9374
+montreal,2025,Mercedes,RUS,20,70.899,MEDIUM,Q3,best,70.899,RUS,6,0.0,0.0,1.0
+montreal,2025,Haas F1 Team,BEA,12,72.306,SOFT,Q1,best,72.306,BEA,5,0.0,0.0,0.9896
+montreal,2025,Kick Sauber,HUL,17,72.183,SOFT,Q2,best,72.183,HUL,5,0.0,0.0,0.9849
+montreal,2025,Alpine,COL,18,72.142,MEDIUM,Q2,best,72.142,COL,4,2.5,2.5,0.9559
+montreal,2025,Racing Bulls,HAD,20,71.867,SOFT,Q3,best,71.867,HAD,6,2.5,2.5,1.0
+montreal,2025,Ferrari,HAM,25,71.526,SOFT,Q3,best,71.526,HAM,5,0.0,0.0,0.9478
+montreal,2025,McLaren,PIA,22,71.12,SOFT,Q3,best,71.12,PIA,6,-2.5,5.0,0.993
+montreal,2025,Red Bull Racing,VER,19,71.059,MEDIUM,Q3,best,71.059,VER,6,0.0,2.5,1.0
+montreal,2026,Williams,SAI,20,74.273,SOFT,Q2,best,74.273,SAI,5,0.0,5.0,0.9478
+montreal,2026,Aston Martin,ALO,10,75.196,SOFT,Q1,best,75.196,ALO,5,-5.0,5.0,0.9304
+montreal,2026,Mercedes,RUS,23,72.578,SOFT,Q3,best,72.578,RUS,6,-2.5,5.0,0.9455
+montreal,2026,Haas F1 Team,BEA,21,74.416,SOFT,Q2,best,74.416,BEA,5,0.0,0.0,0.9513
+montreal,2026,Audi,HUL,20,73.886,SOFT,Q2,best,73.886,HUL,4,-5.0,5.0,0.9675
+montreal,2026,Cadillac,PER,9,75.429,SOFT,Q1,best,75.429,PER,4,0.0,0.0,0.935
+montreal,2026,Alpine,COL,22,73.697,SOFT,Q3,best,73.697,COL,6,-5.0,5.0,0.9408
+montreal,2026,Red Bull Racing,VER,22,72.907,SOFT,Q3,best,72.907,VER,4,-5.0,5.0,0.9652
+montreal,2026,Ferrari,HAM,23,72.868,SOFT,Q3,best,72.868,HAM,5,-5.0,5.0,0.9408
+montreal,2026,Racing Bulls,LIN,27,73.28,SOFT,Q3,best,73.28,LIN,6,-5.0,5.0,0.9582
+montreal,2026,McLaren,NOR,23,72.729,SOFT,Q3,best,72.729,NOR,4,2.5,5.0,0.9176
+monaco,2025,Williams,ALB,24,70.732,SOFT,Q2,best,70.732,ALB,8,0.0,0.0,0.968
+monaco,2025,Aston Martin,ALO,29,70.924,SOFT,Q3,best,70.924,ALO,9,0.0,0.0,0.9543
+monaco,2025,Mercedes,RUS,10,71.507,SOFT,Q1,best,71.507,RUS,8,-5.0,5.0,0.9695
+monaco,2025,Haas F1 Team,OCO,31,70.942,SOFT,Q3,best,70.942,OCO,8,-2.5,5.0,0.9497
+monaco,2025,Kick Sauber,HUL,22,71.596,SOFT,Q2,best,71.596,HUL,8,0.0,2.5,0.9375
+monaco,2025,Alpine,GAS,10,71.994,SOFT,Q1,best,71.994,GAS,6,0.0,2.5,0.9421
+monaco,2025,Racing Bulls,HAD,26,70.923,SOFT,Q3,best,70.923,HAD,9,0.0,0.0,0.9451
+monaco,2025,Ferrari,LEC,26,70.063,SOFT,Q3,best,70.063,LEC,8,0.0,0.0,0.939
+monaco,2025,McLaren,NOR,26,69.954,SOFT,Q3,best,69.954,NOR,9,-5.0,5.0,0.939
+monaco,2025,Red Bull Racing,VER,17,70.669,SOFT,Q3,best,70.669,VER,8,0.0,0.0,0.9649
+monaco,2026,Williams,ALB,23,73.787,SOFT,Q2,best,73.787,ALB,9,-5.0,5.0,0.9787
+monaco,2026,Aston Martin,ALO,9,75.349,SOFT,Q1,best,75.349,ALO,8,-5.0,5.0,0.9878
+monaco,2026,Mercedes,ANT,27,72.051,SOFT,Q3,best,72.051,ANT,8,-5.0,5.0,0.9512
+monaco,2026,Haas F1 Team,OCO,10,74.722,SOFT,Q1,best,74.722,OCO,9,-5.0,5.0,0.9817
+monaco,2026,Audi,HUL,16,73.902,SOFT,Q2,best,73.902,HUL,9,-5.0,5.0,0.968
+monaco,2026,Cadillac,PER,9,74.747,SOFT,Q1,best,74.747,PER,8,-5.0,5.0,0.9619
+monaco,2026,Alpine,GAS,31,73.226,SOFT,Q3,best,73.226,GAS,8,-5.0,5.0,0.971
+monaco,2026,Red Bull Racing,VER,25,72.094,SOFT,Q3,best,72.094,VER,9,-5.0,5.0,0.9405
+monaco,2026,Ferrari,HAM,27,72.279,SOFT,Q3,best,72.279,HAM,9,-5.0,5.0,0.968
+monaco,2026,Racing Bulls,LAW,28,73.412,SOFT,Q3,best,73.412,LAW,8,-5.0,5.0,0.968
+monaco,2026,McLaren,PIA,28,72.624,SOFT,Q3,best,72.624,PIA,9,-5.0,5.0,0.9863
+catalunya,2025,Williams,ALB,13,72.641,SOFT,Q2,best,72.641,ALB,4,-2.5,2.5,0.9784
+catalunya,2025,Aston Martin,ALO,13,72.284,SOFT,Q3,best,72.284,ALO,6,-2.5,2.5,0.9438
+catalunya,2025,Mercedes,RUS,11,71.848,SOFT,Q3,best,71.848,RUS,6,0.0,0.0,0.9363
+catalunya,2025,Haas F1 Team,BEA,8,73.074,SOFT,Q1,best,73.074,BEA,6,-2.5,5.0,0.9816
+catalunya,2025,Kick Sauber,BOR,11,72.756,SOFT,Q2,best,72.756,BOR,5,0.0,5.0,0.96
+catalunya,2025,Alpine,GAS,17,72.199,SOFT,Q3,best,72.199,GAS,6,0.0,0.0,1.0
+catalunya,2025,Racing Bulls,HAD,14,72.252,SOFT,Q3,best,72.252,HAD,6,0.0,2.5,0.9989
+catalunya,2025,Ferrari,HAM,14,72.045,SOFT,Q3,best,72.045,HAM,6,0.0,5.0,0.9633
+catalunya,2025,McLaren,PIA,13,71.546,SOFT,Q3,best,71.546,PIA,5,0.0,0.0,0.9881
+catalunya,2025,Red Bull Racing,VER,11,71.848,SOFT,Q3,best,71.848,VER,6,5.0,7.5,0.9579
+catalunya,2026,Williams,ALB,8,77.424,SOFT,Q1,replaced,76.881,SAI,3,-5.0,10.0,0.9222
+catalunya,2026,Aston Martin,STR,7,78.758,SOFT,Q1,best,78.758,STR,5,-5.0,5.0,0.9212
+catalunya,2026,Mercedes,RUS,12,74.679,SOFT,Q3,best,74.679,RUS,5,0.0,5.0,0.9719
+catalunya,2026,Haas F1 Team,BEA,14,76.389,SOFT,Q2,best,76.389,BEA,5,-10.0,10.0,0.9719
+catalunya,2026,Audi,HUL,11,75.768,SOFT,Q2,best,75.768,HUL,4,-10.0,10.0,0.9546
+catalunya,2026,Cadillac,PER,5,77.545,SOFT,Q1,best,77.545,PER,5,0.0,0.0,0.9676
+catalunya,2026,Alpine,COL,11,76.191,SOFT,Q2,best,76.191,COL,4,0.0,2.5,0.9633
+catalunya,2026,Red Bull Racing,VER,11,75.021,SOFT,Q3,best,75.021,VER,6,-10.0,10.0,0.9438
+catalunya,2026,Ferrari,HAM,13,74.743,SOFT,Q3,best,74.743,HAM,4,-2.5,5.0,0.9611
+catalunya,2026,Racing Bulls,LAW,8,75.585,SOFT,Q2,best,75.585,LAW,5,-5.0,5.0,0.9363
+catalunya,2026,McLaren,NOR,13,75.001,SOFT,Q3,best,75.001,NOR,6,-2.5,5.0,0.9633
+spielberg,2025,Williams,ALB,17,65.205,SOFT,Q2,best,65.205,ALB,6,2.5,5.0,1.0
+spielberg,2025,Aston Martin,ALO,13,65.128,SOFT,Q2,best,65.128,ALO,6,0.0,5.0,1.0
+spielberg,2025,Mercedes,RUS,17,64.763,SOFT,Q3,best,64.763,RUS,6,2.5,5.0,0.9988
+spielberg,2025,Haas F1 Team,BEA,8,65.218,SOFT,Q1,best,65.218,BEA,6,2.5,5.0,1.0
+spielberg,2025,Kick Sauber,BOR,14,64.846,SOFT,Q2,best,64.846,BOR,6,-2.5,5.0,1.0
+spielberg,2025,Alpine,GAS,14,64.846,SOFT,Q2,best,64.846,GAS,6,0.0,2.5,0.9988
+spielberg,2025,Racing Bulls,LAW,16,64.926,SOFT,Q3,best,64.926,LAW,6,-5.0,5.0,1.0
+spielberg,2025,Ferrari,LEC,17,64.492,SOFT,Q3,best,64.492,LEC,6,0.0,2.5,0.9988
+spielberg,2025,McLaren,NOR,17,63.971,SOFT,Q3,best,63.971,NOR,6,2.5,2.5,1.0
+spielberg,2025,Red Bull Racing,VER,11,64.836,SOFT,Q2,best,64.836,VER,6,2.5,2.5,0.9988
+spielberg,2026,Williams,SAI,8,68.252,SOFT,Q1,best,68.252,SAI,5,-10.0,10.0,0.9476
+spielberg,2026,Aston Martin,STR,5,70.363,SOFT,Q1,replaced,69.942,ALO,4,-2.5,7.5,0.9732
+spielberg,2026,Mercedes,RUS,19,66.113,SOFT,Q3,best,66.113,RUS,6,-2.5,7.5,0.9709
+spielberg,2026,Haas F1 Team,BEA,11,67.523,SOFT,Q2,best,67.523,BEA,5,0.0,0.0,0.9639
+spielberg,2026,Audi,BOR,11,67.293,SOFT,Q2,best,67.293,BOR,6,0.0,5.0,0.943
+spielberg,2026,Cadillac,PER,5,68.945,SOFT,Q1,best,68.945,PER,5,10.0,10.0,0.9464
+spielberg,2026,Alpine,GAS,11,67.223,SOFT,Q2,best,67.223,GAS,5,0.0,5.0,0.9674
+spielberg,2026,Red Bull Racing,VER,8,66.475,SOFT,Q3,best,66.475,VER,5,5.0,5.0,0.9802
+spielberg,2026,Ferrari,LEC,14,66.349,SOFT,Q3,best,66.349,LEC,3,5.0,5.0,0.9383
+spielberg,2026,Racing Bulls,LAW,17,66.955,SOFT,Q3,best,66.955,LAW,6,-7.5,7.5,0.9523
+spielberg,2026,McLaren,NOR,14,66.502,SOFT,Q3,best,66.502,NOR,5,5.0,5.0,0.9569
+silverstone,2025,Williams,SAI,11,85.746,SOFT,Q2,best,85.746,SAI,6,-2.5,5.0,1.0
+silverstone,2025,Aston Martin,ALO,8,85.593,SOFT,Q2,best,85.593,ALO,6,0.0,2.5,1.0
+silverstone,2025,Mercedes,RUS,18,85.029,SOFT,Q3,best,85.029,RUS,6,0.0,0.0,1.0
+silverstone,2025,Haas F1 Team,BEA,17,85.471,SOFT,Q3,best,85.471,BEA,6,0.0,0.0,1.0
+silverstone,2025,Kick Sauber,BOR,8,86.446,SOFT,Q1,best,86.446,BOR,6,0.0,5.0,1.0
+silverstone,2025,Alpine,GAS,14,85.711,SOFT,Q2,best,85.711,GAS,6,0.0,0.0,1.0
+silverstone,2025,Racing Bulls,HAD,11,85.864,SOFT,Q2,best,85.864,HAD,6,0.0,0.0,1.0
+silverstone,2025,Ferrari,HAM,12,85.084,SOFT,Q2,best,85.084,HAM,6,-5.0,5.0,1.0
+silverstone,2025,McLaren,PIA,17,84.995,SOFT,Q3,best,84.995,PIA,6,0.0,2.5,1.0
+silverstone,2025,Red Bull Racing,VER,17,84.892,SOFT,Q3,best,84.892,VER,6,0.0,2.5,1.0
+silverstone,2026,Williams,SAI,8,90.562,SOFT,Q1,best,90.562,SAI,6,-7.5,7.5,0.9459
+silverstone,2026,Aston Martin,STR,8,92.863,SOFT,Q1,best,92.863,STR,6,-2.5,2.5,0.9296
+silverstone,2026,Mercedes,ANT,18,88.111,SOFT,Q3,best,88.111,ANT,5,0.0,5.0,0.9708
+silverstone,2026,Haas F1 Team,BEA,14,90.501,SOFT,Q2,best,90.501,BEA,4,-2.5,2.5,0.9459
+silverstone,2026,Audi,BOR,9,89.461,SOFT,Q2,best,89.461,BOR,5,-5.0,5.0,0.9433
+silverstone,2026,Cadillac,BOT,7,91.227,SOFT,Q1,best,91.227,BOT,4,-10.0,10.0,0.9614
+silverstone,2026,Alpine,GAS,11,90.063,SOFT,Q2,best,90.063,GAS,6,-2.5,5.0,0.9708
+silverstone,2026,Red Bull Racing,HAD,17,88.746,SOFT,Q3,best,88.746,HAD,5,0.0,5.0,0.9708
+silverstone,2026,Ferrari,LEC,17,88.286,SOFT,Q3,best,88.286,LEC,6,-2.5,5.0,0.9742
+silverstone,2026,Racing Bulls,LAW,8,89.3,SOFT,Q1,best,89.3,LAW,5,-10.0,10.0,0.9416
+silverstone,2026,McLaren,NOR,16,88.877,SOFT,Q3,best,88.877,NOR,6,0.0,2.5,0.9751
+spa,2025,Williams,ALB,19,101.201,SOFT,Q3,best,101.201,ALB,6,0.0,0.0,1.0
+spa,2025,Aston Martin,ALO,7,102.385,SOFT,Q1,best,102.385,ALO,6,0.0,0.0,1.0
+spa,2025,Mercedes,RUS,11,101.254,SOFT,Q2,best,101.254,RUS,6,2.5,2.5,0.9957
+spa,2025,Haas F1 Team,OCO,13,101.525,SOFT,Q2,best,101.525,OCO,6,0.0,0.0,1.0
+spa,2025,Kick Sauber,BOR,11,101.336,SOFT,Q2,best,101.336,BOR,6,2.5,2.5,1.0
+spa,2025,Alpine,GAS,13,101.633,SOFT,Q2,best,101.633,GAS,6,0.0,5.0,1.0
+spa,2025,Racing Bulls,HAD,12,101.281,SOFT,Q2,best,101.281,HAD,6,0.0,0.0,1.0
+spa,2025,Ferrari,LEC,17,100.9,SOFT,Q3,best,100.9,LEC,6,-2.5,2.5,1.0
+spa,2025,McLaren,NOR,16,100.562,SOFT,Q3,best,100.562,NOR,6,5.0,5.0,1.0
+spa,2025,Red Bull Racing,VER,14,100.903,SOFT,Q3,best,100.903,VER,6,2.5,5.0,1.0
+spa,2026,Williams,SAI,11,106.777,SOFT,Q2,best,106.777,SAI,6,-5.0,5.0,0.9425
+spa,2026,Aston Martin,ALO,5,110.002,SOFT,Q1,best,110.002,ALO,5,5.0,5.0,0.9439
+spa,2026,Mercedes,ANT,14,104.361,SOFT,Q3,best,104.361,ANT,6,-2.5,2.5,0.9454
+spa,2026,Haas F1 Team,BEA,11,106.779,SOFT,Q2,best,106.779,BEA,5,-10.0,10.0,0.9554
+spa,2026,Audi,BOR,17,105.628,SOFT,Q3,best,105.628,BOR,6,-7.5,7.5,0.9497
+spa,2026,Cadillac,BOT,7,107.823,SOFT,Q1,best,107.823,BOT,6,-2.5,2.5,0.9641
+spa,2026,Alpine,GAS,11,106.331,SOFT,Q2,best,106.331,GAS,5,0.0,0.0,0.972
+spa,2026,Red Bull Racing,VER,11,104.678,SOFT,Q3,best,104.678,VER,5,-5.0,5.0,0.9518
+spa,2026,Ferrari,LEC,14,104.893,SOFT,Q3,best,104.893,LEC,5,0.0,0.0,0.9655
+spa,2026,Racing Bulls,LIN,17,105.143,SOFT,Q3,best,105.143,LIN,5,-5.0,5.0,0.9375
+spa,2026,McLaren,NOR,8,104.801,SOFT,Q3,best,104.801,NOR,5,0.0,0.0,0.9633
+spa,2025,Mercedes,ANT,5,102.139,SOFT,Q1,extra,102.139,ANT,5,5.0,5.0,0.9691
+hungaroring,2025,Williams,SAI,8,75.652,SOFT,Q1,best,75.652,SAI,8,0.0,2.5,1.0
+hungaroring,2025,Aston Martin,STR,11,75.129,SOFT,Q2,best,75.129,STR,8,0.0,0.0,1.0
+hungaroring,2025,Mercedes,RUS,8,75.201,SOFT,Q2,best,75.201,RUS,8,0.0,0.0,1.0
+hungaroring,2025,Haas F1 Team,BEA,11,75.694,SOFT,Q2,best,75.694,BEA,8,-5.0,5.0,0.9942
+hungaroring,2025,Kick Sauber,BOR,5,75.586,SOFT,Q1,best,75.586,BOR,7,0.0,5.0,0.985
+hungaroring,2025,Alpine,COL,5,75.875,SOFT,Q1,best,75.875,COL,8,-5.0,5.0,1.0
+hungaroring,2025,Racing Bulls,HAD,11,75.469,SOFT,Q2,best,75.469,HAD,8,5.0,5.0,0.9919
+hungaroring,2025,Ferrari,LEC,17,75.372,SOFT,Q3,best,75.372,LEC,8,-5.0,5.0,0.9942
+hungaroring,2025,McLaren,NOR,8,74.89,SOFT,Q2,best,74.89,NOR,8,0.0,5.0,1.0
+hungaroring,2025,Red Bull Racing,VER,11,75.547,SOFT,Q2,best,75.547,VER,8,0.0,0.0,1.0
+hungaroring,2026,Williams,SAI,8,80.621,SOFT,Q1,best,80.621,SAI,7,0.0,5.0,0.9699
+hungaroring,2026,Aston Martin,ALO,14,79.808,SOFT,Q2,best,79.808,ALO,7,-5.0,5.0,0.9526
+hungaroring,2026,Mercedes,ANT,19,77.479,SOFT,Q3,best,77.479,ANT,7,0.0,5.0,0.963
+hungaroring,2026,Haas F1 Team,OCO,5,80.01,SOFT,Q1,replaced,79.734,OCO,8,-2.5,5.0,0.9561
+hungaroring,2026,Audi,HUL,11,78.639,SOFT,Q2,best,78.639,HUL,6,-5.0,5.0,0.9734
+hungaroring,2026,Cadillac,BOT,9,80.886,SOFT,Q1,best,80.886,BOT,8,-7.5,7.5,0.9676
+hungaroring,2026,Alpine,GAS,5,79.741,SOFT,Q1,replaced,78.844,GAS,6,-7.5,7.5,0.926
+hungaroring,2026,Red Bull Racing,VER,14,77.725,SOFT,Q3,best,77.725,VER,7,0.0,5.0,0.9711
+hungaroring,2026,Ferrari,HAM,11,77.219,SOFT,Q3,best,77.219,HAM,7,-5.0,5.0,0.9688
+hungaroring,2026,Racing Bulls,LIN,14,78.281,SOFT,Q3,best,78.281,LIN,7,-5.0,5.0,0.9827
+hungaroring,2026,McLaren,NOR,15,77.207,SOFT,Q3,best,77.207,NOR,8,0.0,0.0,0.9595
+zandvoort,2025,Williams,SAI,11,69.472,SOFT,Q2,best,69.472,SAI,6,-5.0,5.0,0.9988
+zandvoort,2025,Aston Martin,ALO,10,69.366,SOFT,Q2,best,69.366,ALO,6,0.0,5.0,0.9941
+zandvoort,2025,Mercedes,RUS,14,69.255,SOFT,Q3,best,69.255,RUS,6,5.0,5.0,0.9988
+zandvoort,2025,Haas F1 Team,OCO,8,70.197,SOFT,Q1,best,70.197,OCO,6,-7.5,7.5,1.0
+zandvoort,2025,Kick Sauber,BOR,8,69.77,SOFT,Q2,replaced,69.622,BOR,6,-2.5,5.0,1.0
+zandvoort,2025,Alpine,GAS,14,69.637,SOFT,Q2,best,69.637,GAS,6,0.0,0.0,0.9917
+zandvoort,2025,Racing Bulls,HAD,17,69.208,SOFT,Q3,best,69.208,HAD,6,0.0,5.0,0.9988
+zandvoort,2025,Ferrari,HAM,13,69.261,SOFT,Q2,best,69.261,HAM,6,-5.0,5.0,1.0
+zandvoort,2025,McLaren,PIA,14,68.662,SOFT,Q3,best,68.662,PIA,6,2.5,5.0,0.9929
+zandvoort,2025,Red Bull Racing,VER,17,68.925,SOFT,Q3,best,68.925,VER,6,2.5,2.5,1.0
+zandvoort,2026,Williams,ALB,15,73.182,SOFT,Q2,best,73.182,ALB,4,-2.5,5.0,0.9421
+zandvoort,2026,Aston Martin,ALO,6,73.65,SOFT,Q1,best,73.65,ALO,6,-7.5,7.5,0.9823
+zandvoort,2026,Mercedes,RUS,19,71.265,SOFT,Q3,best,71.265,RUS,6,-5.0,5.0,0.9835
+zandvoort,2026,Haas F1 Team,OCO,16,73.137,SOFT,Q2,best,73.137,OCO,6,-5.0,5.0,0.9551
+zandvoort,2026,Audi,BOR,21,72.079,SOFT,Q3,best,72.079,BOR,6,-5.0,5.0,0.9799
+zandvoort,2026,Cadillac,BOT,9,74.371,SOFT,Q1,best,74.371,BOT,6,-5.0,5.0,0.9504
+zandvoort,2026,Alpine,GAS,13,72.616,SOFT,Q2,best,72.616,GAS,6,-5.0,5.0,0.9444
+zandvoort,2026,Ferrari,HAM,24,71.494,SOFT,Q3,best,71.494,HAM,6,-5.0,5.0,1.0
+zandvoort,2026,Red Bull Racing,VER,21,71.618,SOFT,Q3,best,71.618,VER,6,-2.5,5.0,0.9988
+zandvoort,2026,Racing Bulls,LIN,21,72.185,SOFT,Q3,best,72.185,LIN,6,0.0,2.5,0.9835
+zandvoort,2026,McLaren,NOR,20,71.163,SOFT,Q3,best,71.163,NOR,6,-5.0,5.0,0.9835
+monza,2025,Williams,SAI,18,79.528,SOFT,Q2,best,79.528,SAI,6,0.0,2.5,0.9332
+monza,2025,Aston Martin,ALO,13,79.362,SOFT,Q2,best,79.362,ALO,5,0.0,0.0,0.9462
+monza,2025,Mercedes,RUS,14,79.157,SOFT,Q3,best,79.157,RUS,6,5.0,5.0,0.9722
+monza,2025,Haas F1 Team,BEA,14,79.446,SOFT,Q2,best,79.446,BEA,5,0.0,5.0,0.9514
+monza,2025,Kick Sauber,BOR,11,79.323,SOFT,Q2,best,79.323,BOR,6,0.0,0.0,0.9609
+monza,2025,Alpine,COL,8,79.992,SOFT,Q1,best,79.992,COL,6,-2.5,5.0,0.9844
+monza,2025,Racing Bulls,HAD,5,79.917,SOFT,Q1,best,79.917,HAD,6,2.5,2.5,0.987
+monza,2025,Ferrari,LEC,16,79.007,SOFT,Q3,best,79.007,LEC,6,0.0,2.5,0.98
+monza,2025,McLaren,NOR,20,78.869,SOFT,Q3,best,78.869,NOR,6,0.0,5.0,0.9818
+monza,2025,Red Bull Racing,VER,17,78.792,SOFT,Q3,best,78.792,VER,5,5.0,5.0,0.9748
+monza,2026,Williams,SAI,11,83.87,SOFT,Q2,replaced,83.453,SAI,6,-5.0,5.0,0.9957
+monza,2026,Aston Martin,STR,8,85.222,SOFT,Q1,replaced,85.15,ALO,5,-5.0,5.0,0.9887
+monza,2026,Mercedes,RUS,16,81.846,SOFT,Q3,best,81.846,RUS,6,0.0,5.0,0.967
+monza,2026,Haas F1 Team,BEA,11,82.756,SOFT,Q2,best,82.756,BEA,5,-5.0,5.0,0.9288
+monza,2026,Audi,BOR,11,82.517,SOFT,Q2,best,82.517,BOR,5,-5.0,5.0,0.9809
+monza,2026,Cadillac,BOT,8,84.364,SOFT,Q1,best,84.364,BOT,6,-7.5,10.0,0.9731
+monza,2026,Alpine,GAS,11,82.077,SOFT,Q2,replaced,81.786,GAS,5,-5.0,5.0,0.9774
+monza,2026,Ferrari,LEC,14,82.004,SOFT,Q3,best,82.004,LEC,6,-2.5,2.5,0.9826
+monza,2026,Red Bull Racing,VER,13,82.07,SOFT,Q3,best,82.07,VER,6,-2.5,5.0,0.9818
+monza,2026,Racing Bulls,LIN,17,82.286,SOFT,Q3,best,82.286,LIN,6,-2.5,5.0,0.9705
+monza,2026,McLaren,PIA,15,81.966,SOFT,Q3,best,81.966,PIA,5,0.0,5.0,0.9583
+baku,2025,Williams,SAI,13,101.675,MEDIUM,Q2,best,101.675,SAI,6,0.0,2.5,0.9589
+baku,2025,Aston Martin,ALO,17,101.857,MEDIUM,Q2,best,101.857,ALO,9,0.0,0.0,0.9497
+baku,2025,Mercedes,RUS,11,101.455,MEDIUM,Q2,best,101.455,RUS,8,0.0,0.0,0.9539
+baku,2025,Haas F1 Team,BEA,8,102.666,SOFT,Q1,best,102.666,BEA,8,-2.5,5.0,0.9673
+baku,2025,Kick Sauber,BOR,15,102.277,MEDIUM,Q2,best,102.277,BOR,8,0.0,2.5,0.9732
+baku,2025,Alpine,COL,5,102.779,SOFT,Q1,best,102.779,COL,8,5.0,5.0,0.9849
+baku,2025,Racing Bulls,LAW,17,101.537,MEDIUM,Q2,best,101.537,LAW,7,0.0,5.0,0.9447
+baku,2025,Ferrari,LEC,8,101.458,SOFT,Q1,best,101.458,LEC,7,0.0,0.0,0.9514
+baku,2025,McLaren,NOR,7,101.322,SOFT,Q1,best,101.322,NOR,7,0.0,0.0,0.9723
+baku,2025,Red Bull Racing,VER,22,101.117,SOFT,Q3,best,101.117,VER,9,5.0,5.0,1.0
+baku,2026,Williams,SAI,24,104.566,SOFT,Q3,best,104.566,SAI,8,0.0,0.0,0.9782
+baku,2026,Aston Martin,ALO,3,107.845,SOFT,Q1,masked,106.593,ALO,8,-5.0,5.0,0.9388
+baku,2026,Mercedes,RUS,25,102.526,SOFT,Q3,best,102.526,RUS,7,0.0,0.0,0.9564
+baku,2026,Haas F1 Team,BEA,15,104.775,SOFT,Q2,best,104.775,BEA,6,-5.0,5.0,0.9598
+baku,2026,Audi,BOR,5,105.799,SOFT,Q1,best,105.799,BOR,7,0.0,0.0,0.9396
+baku,2026,Cadillac,PER,3,106.658,SOFT,Q1,best,106.658,PER,7,-5.0,5.0,0.9522
+baku,2026,Alpine,GAS,18,104.047,SOFT,Q3,best,104.047,GAS,7,0.0,0.0,0.9723
+baku,2026,Red Bull Racing,HAD,20,103.5,SOFT,Q3,best,103.5,HAD,6,0.0,0.0,0.9623
+baku,2026,Ferrari,LEC,22,103.363,SOFT,Q3,best,103.363,LEC,9,0.0,0.0,0.9782
+baku,2026,Racing Bulls,LAW,17,104.86,SOFT,Q2,best,104.86,LAW,8,-5.0,5.0,0.9715
+baku,2026,McLaren,PIA,21,103.364,SOFT,Q3,best,103.364,PIA,8,0.0,0.0,0.979
+singapore,2025,Williams,ALB,13,90.202,SOFT,Q2,best,90.202,ALB,10,0.0,5.0,0.9547
+singapore,2025,Aston Martin,ALO,17,89.955,SOFT,Q3,best,89.955,ALO,8,0.0,2.5,0.965
+singapore,2025,Mercedes,RUS,17,89.158,SOFT,Q3,best,89.158,RUS,9,0.0,5.0,0.9537
+singapore,2025,Haas F1 Team,BEA,16,89.868,SOFT,Q3,best,89.868,BEA,11,-5.0,5.0,0.9866
+singapore,2025,Kick Sauber,HUL,14,90.141,SOFT,Q2,best,90.141,HUL,10,-5.0,5.0,0.9722
+singapore,2025,Alpine,COL,8,90.982,SOFT,Q1,best,90.982,COL,9,0.0,5.0,0.928
+singapore,2025,Racing Bulls,HAD,16,89.846,SOFT,Q3,best,89.846,HAD,7,0.0,0.0,0.9444
+singapore,2025,Ferrari,HAM,19,89.688,SOFT,Q3,best,89.688,HAM,11,0.0,5.0,0.9558
+singapore,2025,McLaren,PIA,16,89.524,SOFT,Q3,best,89.524,PIA,9,0.0,5.0,0.9774
+singapore,2025,Red Bull Racing,VER,14,89.34,SOFT,Q3,best,89.34,VER,11,0.0,0.0,0.9784
+singapore,2026,Williams,SAI,12,93.526,SOFT,Q2,best,93.526,SAI,10,-2.5,5.0,0.9743
+singapore,2026,Aston Martin,ALO,8,94.223,SOFT,Q1,masked,94.223,ALO,10,-2.5,2.5,0.9167
+singapore,2026,Mercedes,ANT,19,91.562,SOFT,Q3,best,91.562,ANT,10,0.0,5.0,0.9712
+singapore,2026,Haas F1 Team,BEA,11,92.908,SOFT,Q2,best,92.908,BEA,11,-5.0,5.0,0.9856
+singapore,2026,Audi,HUL,18,92.784,SOFT,Q2,best,92.784,HUL,11,0.0,5.0,0.9825
+singapore,2026,Cadillac,PER,7,95.123,SOFT,Q1,best,95.123,PER,11,0.0,0.0,1.0
+singapore,2026,Alpine,GAS,18,92.502,SOFT,Q3,replaced,92.225,GAS,11,0.0,5.0,0.9136
+singapore,2026,Ferrari,LEC,24,91.427,SOFT,Q3,best,91.427,LEC,10,0.0,0.0,0.9558
+singapore,2026,Racing Bulls,LAW,14,92.319,SOFT,Q2,best,92.319,LAW,10,-2.5,2.5,0.9866
+singapore,2026,McLaren,NOR,20,91.712,SOFT,Q3,best,91.712,NOR,9,-5.0,5.0,0.9527
+singapore,2026,Red Bull Racing,VER,11,91.373,SOFT,Q3,best,91.373,VER,10,0.0,0.0,0.9455
+austin,2025,Williams,SAI,10,93.124,SOFT,Q2,best,93.124,SAI,7,0.0,0.0,0.976
+austin,2025,Aston Martin,ALO,17,93.16,SOFT,Q3,best,93.16,ALO,7,5.0,5.0,0.9696
+austin,2025,Mercedes,RUS,18,92.826,SOFT,Q3,best,92.826,RUS,8,0.0,2.5,0.9714
+austin,2025,Haas F1 Team,BEA,15,93.139,SOFT,Q3,best,93.139,BEA,8,-2.5,2.5,0.9733
+austin,2025,Kick Sauber,HUL,10,93.334,SOFT,Q2,best,93.334,HUL,8,-2.5,5.0,0.977
+austin,2025,Alpine,GAS,7,93.599,SOFT,Q1,best,93.599,GAS,7,0.0,0.0,0.9696
+austin,2025,Ferrari,LEC,16,92.807,SOFT,Q3,best,92.807,LEC,8,-5.0,5.0,0.9659
+austin,2025,Racing Bulls,LAW,10,93.36,SOFT,Q2,best,93.36,LAW,8,0.0,0.0,0.9631
+austin,2025,McLaren,NOR,19,92.801,SOFT,Q3,best,92.801,NOR,7,0.0,0.0,0.9908
+austin,2025,Red Bull Racing,VER,11,92.51,SOFT,Q3,best,92.51,VER,8,0.0,2.5,0.9705
+austin,2026,Williams,ALB,8,96.967,SOFT,Q1,replaced,96.77,SAI,7,-5.0,5.0,0.9465
+austin,2026,Aston Martin,ALO,14,95.818,SOFT,Q2,best,95.818,ALO,7,0.0,5.0,0.9724
+austin,2026,Mercedes,ANT,14,94.035,SOFT,Q3,best,94.035,ANT,7,-5.0,5.0,0.9733
+austin,2026,Haas F1 Team,BEA,11,96.031,SOFT,Q2,best,96.031,BEA,8,-5.0,5.0,0.9806
+austin,2026,Audi,HUL,8,95.158,SOFT,Q2,best,95.158,HUL,7,-5.0,5.0,0.9558
+austin,2026,Cadillac,PER,8,97.433,SOFT,Q1,best,97.433,PER,7,-5.0,5.0,0.9576
+austin,2026,Alpine,GAS,11,95.08,SOFT,Q2,best,95.08,GAS,8,-5.0,5.0,0.9677
+austin,2026,Red Bull Racing,VER,8,94.214,SOFT,Q3,best,94.214,VER,7,0.0,0.0,0.9751
+austin,2026,Ferrari,LEC,8,94.198,SOFT,Q2,best,94.198,LEC,6,-5.0,5.0,0.9493
+austin,2026,Racing Bulls,LIN,11,94.95,SOFT,Q2,best,94.95,LIN,8,-7.5,7.5,0.9843
+austin,2026,McLaren,NOR,8,94.539,SOFT,Q2,best,94.539,NOR,8,-5.0,5.0,1.0
+mexico,2025,Williams,SAI,17,76.172,SOFT,Q3,best,76.172,SAI,7,0.0,0.0,0.9588
+mexico,2025,Aston Martin,ALO,14,77.103,SOFT,Q2,best,77.103,ALO,7,0.0,5.0,0.9388
+mexico,2025,Mercedes,RUS,17,76.034,SOFT,Q3,best,76.034,RUS,7,0.0,5.0,0.9411
+mexico,2025,Haas F1 Team,BEA,20,76.46,SOFT,Q3,best,76.46,BEA,7,0.0,0.0,0.9423
+mexico,2025,Kick Sauber,HUL,11,77.016,SOFT,Q2,best,77.016,HUL,5,-5.0,5.0,0.9446
+mexico,2025,Alpine,GAS,8,77.546,SOFT,Q1,best,77.546,GAS,6,5.0,5.0,0.9388
+mexico,2025,Racing Bulls,HAD,17,76.252,SOFT,Q3,best,76.252,HAD,7,0.0,5.0,0.9741
+mexico,2025,Ferrari,LEC,19,75.848,SOFT,Q3,best,75.848,LEC,7,-5.0,5.0,0.9399
+mexico,2025,McLaren,NOR,20,75.586,SOFT,Q3,best,75.586,NOR,7,-5.0,5.0,0.9435
+mexico,2025,Red Bull Racing,VER,17,76.07,SOFT,Q3,best,76.07,VER,7,0.0,0.0,0.9623
+mexico,2026,Williams,SAI,11,78.521,SOFT,Q1,best,78.521,SAI,8,-5.0,5.0,0.9682
+mexico,2026,Aston Martin,ALO,2,78.908,SOFT,Q1,best,78.908,ALO,8,-7.5,7.5,0.9658
+mexico,2026,Mercedes,RUS,21,76.523,SOFT,Q3,best,76.523,RUS,5,0.0,5.0,0.967
+mexico,2026,Haas F1 Team,BEA,11,78.083,SOFT,Q1,best,78.083,BEA,8,-2.5,2.5,0.9576
+mexico,2026,Audi,HUL,18,77.306,SOFT,Q2,best,77.306,HUL,7,-5.0,5.0,0.9317
+mexico,2026,Cadillac,PER,8,79.105,SOFT,Q1,best,79.105,PER,7,-5.0,5.0,0.9435
+mexico,2026,Alpine,GAS,19,77.153,SOFT,Q3,best,77.153,GAS,7,-5.0,5.0,0.9541
+mexico,2026,Red Bull Racing,VER,10,76.692,SOFT,Q3,best,76.692,VER,6,-5.0,5.0,0.9764
+mexico,2026,Ferrari,HAM,19,76.514,SOFT,Q3,best,76.514,HAM,7,-5.0,5.0,0.9423
+mexico,2026,Racing Bulls,LAW,20,77.029,SOFT,Q3,best,77.029,LAW,6,-7.5,7.5,0.9588
+mexico,2026,McLaren,NOR,14,76.728,SOFT,Q2,best,76.728,NOR,7,-5.0,5.0,0.9658
+interlagos,2025,Williams,ALB,14,70.053,SOFT,Q2,best,70.053,ALB,5,0.0,0.0,0.9435
+interlagos,2025,Aston Martin,ALO,11,70.001,SOFT,Q2,best,70.001,ALO,5,5.0,5.0,0.9988
+interlagos,2025,Mercedes,ANT,15,69.685,SOFT,Q3,best,69.685,ANT,5,0.0,0.0,0.96
+interlagos,2025,Haas F1 Team,BEA,10,69.755,SOFT,Q2,best,69.755,BEA,5,0.0,0.0,0.9823
+interlagos,2025,Alpine,GAS,14,69.857,SOFT,Q2,best,69.857,GAS,4,5.0,5.0,0.987
+interlagos,2025,Racing Bulls,HAD,20,69.931,SOFT,Q3,best,69.931,HAD,5,0.0,5.0,0.987
+interlagos,2025,Ferrari,LEC,15,69.801,SOFT,Q2,best,69.801,LEC,5,-5.0,5.0,0.9753
+interlagos,2025,Kick Sauber,HUL,16,69.985,SOFT,Q2,best,69.985,HUL,5,0.0,0.0,0.9611
+interlagos,2025,McLaren,NOR,20,69.511,SOFT,Q3,best,69.511,NOR,5,0.0,0.0,1.0
+interlagos,2025,Red Bull Racing,VER,8,70.403,SOFT,Q1,best,70.403,VER,5,-5.0,5.0,1.0
+vegas,2026,Williams,SAI,7,95.588,SOFT,Q1,best,95.588,SAI,4,-2.5,2.5,0.923
+vegas,2026,Aston Martin,ALO,4,97.908,SOFT,Q1,masked,97.4,ALO,6,-7.5,10.0,0.9075
+vegas,2026,Mercedes,ANT,25,93.893,SOFT,Q3,best,93.893,ANT,5,5.0,5.0,0.9805
+vegas,2026,Haas F1 Team,CAM,6,97.658,SOFT,Q1,masked,96.22,CAM,5,0.0,5.0,0.9189
+vegas,2026,Audi,HUL,13,95.46,SOFT,Q2,best,95.46,HUL,6,0.0,0.0,0.9538
+vegas,2026,Cadillac,PER,10,97.525,SOFT,Q1,replaced,97.383,PER,5,0.0,0.0,0.8824
+vegas,2026,Alpine,GAS,15,94.559,SOFT,Q2,best,94.559,GAS,4,0.0,2.5,0.9238
+vegas,2026,Red Bull Racing,VER,17,94.151,SOFT,Q3,best,94.151,VER,6,-5.0,5.0,0.9424
+vegas,2026,Ferrari,LEC,8,95.129,SOFT,Q1,replaced,95.04,LEC,5,0.0,5.0,0.9546
+vegas,2026,Racing Bulls,LIN,24,94.668,SOFT,Q3,best,94.668,LIN,6,-2.5,5.0,0.927
+vegas,2026,McLaren,PIA,20,94.899,SOFT,Q3,replaced,94.244,NOR,6,-2.5,5.0,0.9481

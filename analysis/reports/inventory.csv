@@ -1,0 +1,46 @@
+season,event,qualifying,date,circuit_key,circuit,mapped_to,excluded_because
+2025,Australian Grand Prix,True,2025-03-15,10,Melbourne,melbourne,
+2025,Chinese Grand Prix,True,2025-03-22,49,Shanghai,shanghai,
+2025,Japanese Grand Prix,True,2025-04-05,46,Suzuka,suzuka,
+2025,Bahrain Grand Prix,True,2025-04-12,63,Sakhir,,Sakhir; no 2026 race there in the data
+2025,Saudi Arabian Grand Prix,True,2025-04-19,149,Jeddah,,Jeddah; no 2026 race there in the data
+2025,Miami Grand Prix,True,2025-05-03,151,Miami,miami,
+2025,Emilia Romagna Grand Prix,True,2025-05-17,6,Imola,,Imola; no 2026 race there in the data
+2025,Monaco Grand Prix,True,2025-05-24,22,Monte Carlo,monaco,
+2025,Spanish Grand Prix,True,2025-05-31,15,Catalunya,catalunya,
+2025,Canadian Grand Prix,True,2025-06-14,23,Montreal,montreal,
+2025,Austrian Grand Prix,True,2025-06-28,19,Spielberg,spielberg,
+2025,British Grand Prix,True,2025-07-05,2,Silverstone,silverstone,
+2025,Belgian Grand Prix,True,2025-07-26,7,Spa-Francorchamps,spa,
+2025,Hungarian Grand Prix,True,2025-08-02,4,Hungaroring,hungaroring,
+2025,Dutch Grand Prix,True,2025-08-30,55,Zandvoort,zandvoort,
+2025,Italian Grand Prix,True,2025-09-06,39,Monza,monza,
+2025,Azerbaijan Grand Prix,True,2025-09-20,144,Baku,baku,
+2025,Singapore Grand Prix,True,2025-10-04,61,Singapore,singapore,
+2025,United States Grand Prix,True,2025-10-18,9,Austin,austin,
+2025,Mexico City Grand Prix,True,2025-10-25,65,Mexico City,mexico,
+2025,São Paulo Grand Prix,True,2025-11-08,14,Interlagos,interlagos,
+2025,Las Vegas Grand Prix,True,2025-11-21,152,Las Vegas,vegas,
+2025,Qatar Grand Prix,True,2025-11-29,150,Lusail,,Lusail; 2026 race not yet in the data
+2025,Abu Dhabi Grand Prix,True,2025-12-06,70,Yas Marina Circuit,,Yas Marina; 2026 race not yet in the data
+2026,Australian Grand Prix,True,2026-03-07,10,Melbourne,melbourne,
+2026,Chinese Grand Prix,True,2026-03-14,49,Shanghai,shanghai,
+2026,Japanese Grand Prix,True,2026-03-28,46,Suzuka,suzuka,
+2026,Miami Grand Prix,True,2026-05-02,151,Miami,miami,
+2026,Canadian Grand Prix,True,2026-05-23,23,Montreal,montreal,
+2026,Monaco Grand Prix,True,2026-06-06,22,Monte Carlo,monaco,
+2026,Barcelona Grand Prix,True,2026-06-13,15,Catalunya,catalunya,
+2026,Austrian Grand Prix,True,2026-06-27,19,Spielberg,spielberg,
+2026,British Grand Prix,True,2026-07-04,2,Silverstone,silverstone,
+2026,Belgian Grand Prix,True,2026-07-18,7,Spa-Francorchamps,spa,
+2026,Hungarian Grand Prix,True,2026-07-25,4,Hungaroring,hungaroring,
+2026,Dutch Grand Prix,True,2026-08-22,55,Zandvoort,zandvoort,
+2026,Italian Grand Prix,True,2026-09-05,39,Monza,monza,
+2026,Spanish Grand Prix,True,2026-09-12,153,Madring,,"Madring, a new circuit; no 2025 race there"
+2026,Azerbaijan Grand Prix,True,2026-09-25,144,Baku,baku,
+2026,Bahrain Grand Prix,True,2026-10-03,12,Kuala Lumpur,,Run at Kuala Lumpur; no 2025 race there
+2026,Singapore Grand Prix,True,2026-10-10,61,Singapore,singapore,
+2026,United States Grand Prix,True,2026-10-24,9,Austin,austin,
+2026,Mexico City Grand Prix,True,2026-10-31,65,Mexico City,mexico,
+2026,São Paulo Grand Prix,True,2026-11-07,14,Interlagos,interlagos,
+2026,Las Vegas Grand Prix,True,2026-11-20,152,Las Vegas,vegas,
